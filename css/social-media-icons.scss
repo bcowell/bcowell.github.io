@@ -1,0 +1,79 @@
+.social-icons {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 250px;
+}
+
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  display:inline-block;
+}
+
+.square {
+  padding: 9px 9px;
+  width: 40px;
+  font-size: 20px !important; 
+  text-align: center;
+  background: #fff;
+}
+
+.squares .tab {
+  background: none;
+}
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+
+.fa-github-alt.square {
+  background-color: hsl(122, 39%, 49%);
+  border: 1px solid hsl(122, 39%, 49%);
+  color: #fff;
+}
+
+.fa-github-alt.square:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(122, 39%, 49%);
+  color: hsl(122, 39%, 49%);
+}
+
+.fa-twitter.square {
+  background-color: hsl(195, 100%, 60%);
+  border: 1px solid hsl(195, 100%, 60%);
+  color: #fff;
+}
+
+.fa-twitter.square:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(195, 100%, 60%);
+  color: hsl(195, 100%, 60%);
+}
+
+.fa-envelope-o.square {
+  background-color: hsl(0, 65%, 51%);
+  border: 1px solid hsl(0, 65%, 51%);
+  color: #fff;
+}
+
+.fa-envelope-o.square:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 65%, 51%);
+  color: hsl(0, 65%, 51%);
+}
+
+.fa-linkedin.square {
+  background-color: hsl(208, 79%, 51%);
+  border: 1px solid hsl(208, 79%, 51%);
+  color: #fff;
+}
+
+.fa-linkedin.square:hover {
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(208, 79%, 51%);
+  color: hsl(208, 79%, 51%);
+}

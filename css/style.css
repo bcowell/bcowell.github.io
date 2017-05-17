@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.social-icons {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 250px; }
+
+.tab {
+  margin-right: 10px;
+  border-radius: 0 0 25px 25px;
+  display: inline-block; }
+
+.square {
+  padding: 9px 9px;
+  width: 40px;
+  font-size: 20px !important;
+  text-align: center;
+  background: #fff; }
+
+.squares .tab {
+  background: none; }
+
+.screen-reader {
+  position: absolute;
+  left: -9999px;
+  top: -9999px; }
+
+.fa-github-alt.square {
+  background-color: #4cae4f;
+  border: 1px solid #4cae4f;
+  color: #fff; }
+
+.fa-github-alt.square:hover {
+  background-color: white;
+  border-color: #4cae4f;
+  color: #4cae4f; }
+
+.fa-twitter.square {
+  background-color: #33ccff;
+  border: 1px solid #33ccff;
+  color: #fff; }
+
+.fa-twitter.square:hover {
+  background-color: white;
+  border-color: #33ccff;
+  color: #33ccff; }
+
+.fa-envelope-o.square {
+  background-color: #d33131;
+  border: 1px solid #d33131;
+  color: #fff; }
+
+.fa-envelope-o.square:hover {
+  background-color: white;
+  border-color: #d33131;
+  color: #d33131; }
+
+.fa-linkedin.square {
+  background-color: #1f89e5;
+  border: 1px solid #1f89e5;
+  color: #fff; }
+
+.fa-linkedin.square:hover {
+  background-color: white;
+  border-color: #1f89e5;
+  color: #1f89e5; }
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.parallax-container {
+  height: 220px;
+  width: 100%;
+  background-size: cover; }
+
+canvas {
+  background-color: transparent;
+  z-index: 1;
+  position: absolute;
+  width: 100%; }
+
+h1, p {
+  position: relative;
+  z-index: 3; }
+
+h1 {
+  font-family: "Montserrat", sans-serif; }
+
+p, #coop1, #coop2, #coop3, #coop4 {
+  font-family: "Open Sans", sans-serif; }
+
+li {
+  list-style-type: none; }
+
+.nanobar .bar {
+  background: lightblue; }
+
+.fullWidth {
+  width: 100%; }
+
+._resume, ._work, ._about {
+  padding-bottom: 20px; }
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em; }
+
+.item {
+  width: 200px !important;
+  height: 250px !important;
+  border-radius: 8px;
+  word-wrap: break-word; }
+
+.card-stacked {
+  background-color: transparent;
+  border-radius: 8px; }
+
+.item h3 {
+  font-size: 24px; }
+
+.label-success {
+  background-color: #5cb85c; }
+
+.label-primary {
+  background-color: #5bc0de; }
+
+.label-warning {
+  background-color: #f0ad4e; }
+
+.label-danger {
+  background-color: #d9534f; }
+
+.success {
+  color: #3c763d;
+  background-color: #dff0d8; }
+
+.success:hover {
+  background-color: #d0e9c6; }
+
+.primary {
+  color: #31708f;
+  background-color: #d9edf7; }
+
+.primary:hover {
+  background-color: #c4e3f3; }
+
+.warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3; }
+
+.warning:hover {
+  background-color: #faf2cc; }
+
+.danger {
+  color: #a94442;
+  background-color: #f2dede; }
+
+.danger:hover {
+  background-color: #ebcccc; }
+
+.collapsible-body {
+  padding: 10px 10px 10px 0px;
+  margin: 0; }
+
+.collapsible-body h3 {
+  font-size: 1.8em;
+  margin-left: 2%; }
+
+.collapsible-body p {
+  font-size: 1.1em; }
+
+footer.page-footer {
+  background-color: #222; }
+  footer.page-footer .footer-copyright {
+    color: #666; }
