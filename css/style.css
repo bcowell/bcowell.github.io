@@ -94,6 +94,9 @@ h1, p {
 h1 {
   font-family: "Montserrat", sans-serif; }
 
+a {
+  color: rgba(0, 0, 0, 0.87); }
+
 p, #coop1, #coop2, #coop3, #coop4 {
   font-family: "Open Sans", sans-serif; }
 

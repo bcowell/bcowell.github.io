@@ -55,6 +55,8 @@ h1, p
 
 h1 { font-family: $font-title; }
 
+a { color: rgba(0,0,0,0.87); }
+
 p, #coop1, #coop2, #coop3, #coop4 { font-family: $font-body; }
     
 li { list-style-type: none; }
@@ -78,7 +80,6 @@ li { list-style-type: none; }
     vertical-align: baseline;
     border-radius: .25em;
 }
-
 
 .item
 { 

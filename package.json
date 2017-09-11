@@ -1,0 +1,23 @@
+{
+  "name": "bcowell.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcowell/bcowell.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcowell/bcowell.github.io/issues"
+  },
+  "homepage": "https://github.com/bcowell/bcowell.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
